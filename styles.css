@@ -14,7 +14,7 @@
   color: black; 
   border-color: rgb(64, 114, 121)
 }
-.current-form-1 .menu-item.item-2 > å {
+.current-form-1 .menu-item.item-2 {
  display: flex;
 }
 
@@ -23,7 +23,7 @@
   color: black; 
   border-color: rgb(64, 114, 121)
 }
-.current-form-2 .menu-item.item-2 > å {
+.current-form-2 .menu-item.item-2 {
  display: flex;
 }
 
@@ -32,14 +32,14 @@
   color: black; 
   border-color: rgb(64, 114, 121)
 }
-.current-form-2 .menu-item.item-2 > å {
+.current-form-2 .menu-item.item-2 {
  display: flex;
 
 }
 
 .multi-step-form {
 display: flex
-max-width: 600px:
+max-width:600px:
 }
 
 
