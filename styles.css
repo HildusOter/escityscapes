@@ -8,7 +8,10 @@
 }
 
 .menu-left [
-  background-image: url('Assets/Images/multistep.jpg'); 
+  background-image: url('Assets/Images/multistep.jpg');
+  border-radius: 10px
+  width: 200px
+  padding: 20px 
 ]
 
 {
