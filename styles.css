@@ -38,9 +38,13 @@
 }
 
 .multi-step-form {
-display: flex
-max-width:600px:
-}
+display: flex;
+max-width:600px;
+padding: 20px;
+border-radius: 15px;
+-webkit-box-shadow: 6px 10px 65px -19px rgba(0, 0, 0.2);
+-moz-box-shadow: 6px 10px 65px -19px rgba(0, 0, 0 ,0.2);
+box shadow: 6px 10px 65px -19px rgbargba(0, 0, 0, 0.2);
 
 
 
