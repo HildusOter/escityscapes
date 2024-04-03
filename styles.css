@@ -11,7 +11,10 @@
 
 .current-form-1 .menu-item.item-1 > p {
   background-image: url('Assets/Images/multistep.jpg');
-  /* Specify other properties as needed */
+  color: black; 
+}
+.current-form-1 .menu-item.item-2 > å {
+ display: flex;
 }
 
 
