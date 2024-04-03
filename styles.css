@@ -12,6 +12,7 @@
 .current-form-1 .menu-item.item-1 > p {
   background-image: url('Assets/Images/multistep.jpg');
   color: black; 
+  border-color: rgb(64, 114, 121)
 }
 .current-form-1 .menu-item.item-2 > å {
  display: flex;
@@ -20,9 +21,20 @@
 .current-form-2 .menu-item.item-2 > p {
   background-image: url('Assets/Images/multistep.jpg');
   color: black; 
+  border-color: rgb(64, 114, 121)
 }
-.current-form-3 .menu-item.item-3 > å {
+.current-form-2 .menu-item.item-2 > å {
  display: flex;
+}
+
+.current-form-3 .menu-item.item-3 > p {
+  background-image: url('Assets/Images/multistep.jpg');
+  color: black; 
+  border-color: rgb(64, 114, 121)
+}
+.current-form-2 .menu-item.item-2 > å {
+ display: flex;
+
 }
 
 
