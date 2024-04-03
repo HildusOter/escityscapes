@@ -1,10 +1,18 @@
-*
-/*Multistep opg*/
+* {
+font-family
 
 
+}
 .ol{
   list-style-type: none;
   padding: 0px
+}
+
+
+/* Multi Stage Form Styling */
+
+{
+  animation: rotate 10s linear infinite;
 }
 
 .menu-left [
