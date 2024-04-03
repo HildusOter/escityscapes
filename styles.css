@@ -103,12 +103,21 @@ menu item {
 
 }
 
-.form-navigation > button 
+.form-navigation > button {
+
+
+}
+
+.form-navigation > button:hover {
+  border-color: rgb(56, 58, 53);
+}
 
 /*la stå inntil multi er ferdig*/
 
 
-
+.underline {
+  text-decoration: underline;
+}
 {
   box-sizing: border-box;
 }
