@@ -1,4 +1,13 @@
-* {
+*
+
+.ol{
+  list-style-type: none;
+  padding: 0px
+
+
+
+}
+{
   box-sizing: border-box;
 }
 
