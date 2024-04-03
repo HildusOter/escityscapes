@@ -17,6 +17,14 @@
  display: flex;
 }
 
+.current-form-2 .menu-item.item-2 > p {
+  background-image: url('Assets/Images/multistep.jpg');
+  color: black; 
+}
+.current-form-3 .menu-item.item-3 > å {
+ display: flex;
+}
+
 
 
 
