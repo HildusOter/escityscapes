@@ -1,5 +1,7 @@
+/* User stylesheets overrides, fix this 
+later as is overrides other parts of my project*/
 * {
-font-family
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 
 }
@@ -8,12 +10,16 @@ font-family
   padding: 0px
 }
 
+/* MULTISTEP stage form styling*/
 
-/* Multi Stage Form Styling */
-
-{
-  animation: rotate 10s linear infinite;
+.current-form-1 .menu-item.item-1 > p {
+  background-color: url: ('Assets/Images/multistep.jpg');
 }
+
+
+
+
+
 
 .menu-left [
   background-image: url('Assets/Images/multistep.jpg');
