@@ -47,16 +47,17 @@ border-radius: 15px;
 box shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
 }
 
+.menu-left {
+  background-image: url('Assets/Images/multistep.jpg');
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+}
 
 
 /*la stå inntil multi er ferdig*/
 
-.menu-left [
-  background-image: url('Assets/Images/multistep.jpg');
-  border-radius: 10px
-  width: 200px
-  padding: 20px 
-]
+
 
 {
   box-sizing: border-box;
