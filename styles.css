@@ -39,15 +39,13 @@
 
 .multi-step-form {
 display: flex
-
-
-
-
-
-
+max-width: 600px:
 }
 
 
+
+
+/*la stå inntil multi er ferdig^/
 
 .menu-left [
   background-image: url('Assets/Images/multistep.jpg');
