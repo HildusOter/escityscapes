@@ -1,21 +1,18 @@
-/* User stylesheets overrides, fix this 
-later as is overrides other parts of my project*/
 * {
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
-
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.ol{
+
+.ol {
   list-style-type: none;
-  padding: 0px
+  padding: 0px;
 }
 
-/* MULTISTEP stage form styling*/
+/* MULTISTEP stage form styling */
 
 .current-form-1 .menu-item.item-1 > p {
-  background-color: url: ('Assets/Images/multistep.jpg');
+  background-image: url('Assets/Images/multistep.jpg');
+  /* Specify other properties as needed */
 }
-
 
 
 
