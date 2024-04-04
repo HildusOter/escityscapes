@@ -1,13 +1,17 @@
 console.log('Hello!');
+
 function setStage(newStage) {
     const form = document.querySelector("#multi-step-form");
-    
-    form.classList.remove("current-form-1");
-    form.classList.remove("current-form-2");
-    form.classList.remove("current-form-3");
-}
-    
-function submitForm() {
-        console.log("Submitting form");
+
+    // Hide all stages
+    document.querySelectorAll('.choice-box').forEach(function(el) {
+        el.style.display = 'none';
+    });
+
+    // Show the selected stage
+    document.querySelector('.stage-' + newStage).style.display = 'block';
 }
 
+function submitForm() {
+    console.log("Submitting form");
+}
