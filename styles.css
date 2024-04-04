@@ -123,8 +123,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh
-  font-family: system-ui, sans-serif;
-  color: black;
   background-color: rgb(170, 166, 166);
 }
 
