@@ -58,10 +58,10 @@ body {
 
 .multi-step-form {
 display: flex;
-background-color: aquamarine;
+background-color: rgb(252, 252, 252);
 max-width:600px;
-padding: 20px;
-border-radius: 15px;
+padding: 10px;
+border-radius: 10px;
 -webkit-box-shadow: 10px 10px 65px -19px rgba(0, 0, 0.2);
 -moz-box-shadow: 6px 10px 65px -19px rgba(0, 0, 0 ,0.2);
 box-shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
@@ -75,7 +75,7 @@ box-shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
 }
 
 menu-item {
-
+display: flex;
 
 }
 
