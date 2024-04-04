@@ -118,10 +118,14 @@ menu item {
 .underline {
  
 body {
-  margin: 0;
+  dislay: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(170, 166, 166);
 }
 
 nav {
@@ -150,4 +154,4 @@ nav a[aria-current='page'] {
   color: #000;
   background-color: #d4d4d4;
 }
-
+}
