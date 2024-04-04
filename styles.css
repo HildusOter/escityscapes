@@ -29,7 +29,7 @@ body {
 } */
 
 .current-form-1 .menu-item.item-1 > p {
-  background-image: url('Assets/Images/multistep.jpg');
+  background-color: aquamarine;
   color: black; 
   border-color: rgb(64, 114, 121)
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .current-form-2 .menu-item.item-2 > p {
-  background-image: url('Assets/Images/multistep.jpg');
+  background-image: aqua;
   color: black; 
   border-color: rgb(64, 114, 121)
 }
@@ -47,11 +47,11 @@ body {
 }
 
 .current-form-3 .menu-item.item-3 > p {
-  background-image: url('Assets/Images/multistep.jpg');
+  background-image: aqua;
   color: black; 
   border-color: rgb(64, 114, 121)
 }
-.current-form-2 .menu-item.item-2 {
+.current-form-3 .menu-item.item-2 {
  display: flex;
 
 }
@@ -68,7 +68,7 @@ box-shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
 }
 
 .menu-left {
-  background-image: blue;
+  background-image: aqua;
   border-radius: 10px;
   width: 200px;
   padding: 20px;
