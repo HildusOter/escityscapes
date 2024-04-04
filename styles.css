@@ -16,11 +16,8 @@ body {
   padding: 0px;
 }
 
-/* MULTISTEP stage form styling
-Slaø dette vere med? /* Multi Stage Form Styling */
-/* .multi-step-form {
-  animation: rotate 10s linear infinite;
-}
+/* MULTISTEP stage form styling*/
+
 
 @keyframes rotate {
   from {
@@ -29,7 +26,7 @@ Slaø dette vere med? /* Multi Stage Form Styling */
   to {
     transform: rotate3d(0.5, -0.5, 0.5, 35deg);
   }
-} */ */
+} */
 
 .current-form-1 .menu-item.item-1 > p {
   background-image: url('Assets/Images/multistep.jpg');
@@ -71,7 +68,7 @@ box-shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
 }
 
 .menu-left {
-  background-image: url('Assets/Images/multistep.jpg');
+  background-image: blue;
   border-radius: 10px;
   width: 200px;
   padding: 20px;
