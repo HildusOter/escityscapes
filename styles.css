@@ -92,6 +92,16 @@ gap:10px
 
 }
 
+.menu-text > p {
+  margin: 0px
+}
+
+.menu-step {
+  font-size: small;
+  color: red
+}
+
+
 .menu-name {
 
 
