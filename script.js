@@ -1,17 +1,18 @@
-console.log('Hello!');
-
 function setStage(newStage) {
-    const form = document.querySelector("#multi-step-form");
+    // Hent ut form elementet
+    const form = document.querySelector("#multi-step-form")
 
-    // Hide all stages
-    document.querySelectorAll('.choice-box').forEach(function(el) {
-        el.style.display = 'none';
-    });
+    // // Fjerner det nåværende css klassen
+    form.classList.remove("current-form-1")
+    form.classList.remove("current-form-2")
+    form.classList.remove("current-form-3")
+    form.classList.remove("current-form-4")
 
-    // Show the selected stage
-    document.querySelector('.stage-' + newStage).style.display = 'block';
+    // // Legg til den nye css klassen
+    const newClass = "current-form-" + newStage
+    form.classList.add(newClass)
 }
 
 function submitForm() {
-    console.log("Submitting form");
+    console.log("Submitting form")
 }
