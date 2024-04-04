@@ -1,5 +1,14 @@
 * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:"exo 2", sans-serif
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
+  
 }
 
 .ol {
@@ -7,7 +16,20 @@
   padding: 0px;
 }
 
-/* MULTISTEP stage form styling */
+/* MULTISTEP stage form styling
+Slaø dette vere med? /* Multi Stage Form Styling */
+/* .multi-step-form {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate3d(0.5, -0.5, 0.5, 0deg);
+  }
+  to {
+    transform: rotate3d(0.5, -0.5, 0.5, 35deg);
+  }
+} */ */
 
 .current-form-1 .menu-item.item-1 > p {
   background-image: url('Assets/Images/multistep.jpg');
@@ -39,6 +61,7 @@
 
 .multi-step-form {
 display: flex;
+background-color: aquamarine;
 max-width:600px;
 padding: 20px;
 border-radius: 15px;
@@ -54,7 +77,7 @@ box-shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
 
-menu item {
+menu-item {
 
 
 }
@@ -117,14 +140,7 @@ menu item {
 
 .underline {
  
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh
-  background-color: rgb(170, 166, 166);
-}
+
 
 nav {
   display: flex;
