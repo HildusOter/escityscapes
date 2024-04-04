@@ -76,10 +76,19 @@ box-shadow: 6px 10px 65px -19px rgba(0, 0, 0, 0.2);
 
 menu-item {
 display: flex;
+gap:10px
 
 }
 
 .menu-item > p {
+  border-style: solid;
+  border-color: white;
+  color: white;
+  height: 50px;
+  border-radius: 10000px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
