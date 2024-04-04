@@ -118,7 +118,7 @@ menu item {
 .underline {
  
 body {
-  dislay: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
