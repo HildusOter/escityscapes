@@ -178,7 +178,8 @@ justify-content: space-between
   background-image: url('Assets/Images/header.jpg');
   background-size: cover; 
   background-position: center;
-
+  height: 400px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
