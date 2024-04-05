@@ -177,13 +177,24 @@ justify-content: space-between
   position: relative;
   background-image: url('Assets/Images/header.jpg');
   background-size: cover; 
-  height: 400px; 
-  margin-top: 20px; 
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+.header-image {
+  position: relative;
+}
+
+.header-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
 
 .bebas-neue {
   font-family: "Bebas Neue", sans-serif;
