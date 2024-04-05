@@ -233,4 +233,29 @@ text-align: center;
 }
 
 
+/* /* CSS for box */
+.box {
+  width: calc(49% - 20px); /* Set width of the box (50% minus margins) */
+  margin: 20px 0; /* Add margin around the boxes */
+  padding: 20px; /* Add padding to the box */
+  border-radius: 10px;
+  background-color: #EDEDED; 
+  box-shadow: 0 4px 8px rgba(174, 52, 52, 0.1);
+  box-sizing: border-box; 
+}
 
+/* CSS for box  (h3, p, img, etc.) */
+.box h3 {
+  margin-top: 0;
+  font-family: "Bebas Neue", sans-serif;
+  color: #74AFB8;
+}
+
+.box p {
+  margin-bottom: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box img {
+  width: 100%; /* Make image responsive within the box */
+}
