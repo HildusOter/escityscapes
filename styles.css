@@ -177,6 +177,7 @@ justify-content: space-between
   position: relative;
   background-image: url('Assets/Images/header.jpg');
   background-size: cover; 
+  background-position: center;
 
   display: flex;
   justify-content: center;
@@ -194,6 +195,15 @@ justify-content: space-between
   height: auto;
 }
 
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Optional: Adjust text color for better visibility */
+  font-family: 'bebas-neue', sans-serif; /* Set font family */
+}
 
 
 .bebas-neue {
