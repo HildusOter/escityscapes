@@ -173,17 +173,17 @@ justify-content: space-between
 
 /* CSS for navigation */
 
+.header-text {
+text-align: center:
+
+}
+
 .header {
   position: relative;
   background-image: url('Assets/Images/header.jpg');
   background-size: cover; 
   background-position: center;
   height: 400px;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .header-image {
@@ -215,13 +215,6 @@ justify-content: space-between
   margin: 0;
 }
 
-.nav ul li {
-  margin-right: 10px;
-}
-
-.nav ul li:last-child {
-  margin-right: 0;
-}
 
 
 
