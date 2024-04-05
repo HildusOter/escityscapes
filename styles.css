@@ -204,3 +204,7 @@ nav a[aria-current='page'] {
   z-index: 1;
   text-align: center; 
 }
+
+.header-text {
+  text-align: center;
+}
