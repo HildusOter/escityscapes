@@ -197,6 +197,10 @@ justify-content: space-between
   margin-right: 10px;
 }
 
+.nav ul li:last-child {
+  margin-right: 0;
+}
+
 
 
 .nav ul {
