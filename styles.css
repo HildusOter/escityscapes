@@ -172,6 +172,19 @@ justify-content: space-between
 }
 
 /* CSS for navigation */
+
+.header {
+  position: relative;
+  background-image: url('Assets/Images/header.jpg');
+  background-size: cover; 
+  height: 400px; 
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .nav {
   position: absolute; /* Position the navigation bar */
   top: 10px; /* Adjust the top position as needed */
