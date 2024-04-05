@@ -185,6 +185,15 @@ justify-content: space-between
   flex-direction: column;
 }
 
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5D5A5A;
+  margin: 0;
+}
+
+
 .nav {
   position: absolute; /* Position the navigation bar */
   top: 10px; /* Adjust the top position as needed */
