@@ -194,6 +194,13 @@ justify-content: space-between
 }
 
 
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+
 .nav {
   position: absolute; /* Position the navigation bar */
   top: 10px; /* Adjust the top position as needed */
